@@ -8,6 +8,11 @@ The project was developed as part of the Zidio Data Science & Analytics domain p
 
 ---
 
+## 🚀 Live Demo
+https://retailpulse-ai-analytics-bcpoeovsdpq3yh7nkerfmd.streamlit.app/
+
+---
+
 # 🚀 Project Objectives
 
 - Analyze retail sales and customer behavior
