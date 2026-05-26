@@ -99,13 +99,12 @@ RetailPulse-AI-Analytics/
 │   └── model_metrics.csv
 │
 ├── screenshots/
-│
-└── models/
+
 
 ```
 ---
 
-## 📈 Model Performance
+# 📈 Model Performance
 | Module                | Model            | Performance         |
 | --------------------- | ---------------- | ------------------- |
 | Demand Forecasting    | Prophet          | MAPE ≈ 22.66%       |
@@ -115,7 +114,7 @@ RetailPulse-AI-Analytics/
 
 ---
 
-## 💡 Business Insights
+# 💡 Business Insights
 High-value VIP customers were identified using RFM analysis
 Prophet forecasting captured seasonal retail demand trends effectively
 Customer engagement duration was a strong churn indicator
@@ -124,7 +123,7 @@ ABC analysis highlighted products contributing the highest revenue
 
 ---
 
-## 🖥️ Streamlit Dashboard
+# 🖥️ Streamlit Dashboard
 
 The Streamlit dashboard provides:
 
@@ -137,28 +136,44 @@ Inventory optimization recommendations
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-1️⃣ Clone Repository
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/RetailPulse-AI-Analytics.git
+```
+
+## 2️⃣ Move Into Project Folder
+
+```bash
 cd RetailPulse-AI-Analytics
+```
 
-2️⃣ Move Into Project Folder
+## 3️⃣ Create Virtual Environment
 
-3️⃣ Create Virtual Environment
+```bash
 python -m venv venv
+```
 
-4️⃣ Activate Virtual Environment
+## 4️⃣ Activate Virtual Environment
 
-Windows
+### Windows
+
+```bash
 venv\Scripts\activate
+```
 
+## 5️⃣ Install Dependencies
 
-5️⃣ Install Dependencies
+```bash
 python -m pip install -r requirements.txt
+```
+
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 Hyperparameter optimization using Optuna
 Drift detection using Evidently AI
 MLflow experiment tracking
@@ -168,23 +183,23 @@ Real-time forecasting pipeline
 
 ---
 
-## ⚠️ Challenges Faced
+# ⚠️ Challenges Faced
 Handling highly volatile retail demand patterns
 Managing seasonal sales spikes and holiday effects
 Avoiding data leakage in churn prediction
 Balancing model accuracy and interpretability
 
 ---
-##👨‍💻 Author
+#👨‍💻 Author
 Indra Jaiswal
 
 ---
 
-## 📜 License
+# 📜 License
 
 This project is developed for educational and portfolio purposes under the Zidio Data Science & Analytics program.
 
-
+---
 
 
 
