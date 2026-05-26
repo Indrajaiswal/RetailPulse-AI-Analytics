@@ -146,7 +146,7 @@ Inventory optimization recommendations
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RetailPulse-AI-Analytics.git
+git clone https://github.com/Indrajaiswal/RetailPulse-AI-Analytics.git
 ```
 
 ## 2️⃣ Move Into Project Folder
