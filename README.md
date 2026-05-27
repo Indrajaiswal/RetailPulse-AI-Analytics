@@ -208,7 +208,19 @@ This project is developed for educational and portfolio purposes under the Zidio
 ---
 
 
+# 📷 Dashboard Preview
+![Dashboard Overview](screenshots/1.png)
+![Dashboard Overview](screenshots/2.png)
+![Dashboard Overview](screenshots/3.png)
+![Dashboard Overview](screenshots/4.png)
+![Dashboard Overview](screenshots/5.png)
+![Dashboard Overview](screenshots/6.png)
+![Dashboard Overview](screenshots/7.png)
+![Dashboard Overview](screenshots/8.png)
+![Dashboard Overview](screenshots/9.png)
+![Dashboard Overview](screenshots/10.png)
 
+---
 
 
 
