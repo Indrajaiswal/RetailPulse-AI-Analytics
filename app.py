@@ -10,9 +10,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# ===============================
+
 # PATHS
-# ===============================
 
 BASE_DIR = Path(__file__).parent
 
@@ -24,9 +23,8 @@ INVENTORY_PATH = BASE_DIR / "outputs" / "inventory_optimization_results.csv"
 FORECAST_PATH = BASE_DIR / "outputs" / "forecast_results" / "prophet_30_day_forecast.csv"
 
 
-# ===============================
+
 # LOAD DATA
-# ===============================
 
 @st.cache_data
 def load_data():
@@ -37,9 +35,8 @@ def load_data():
 df = load_data()
 
 
-# ===============================
+
 # SIDEBAR
-# ===============================
 
 st.sidebar.title("📊 RetailPulse")
 st.sidebar.markdown("AI-Powered Retail Analytics")
@@ -69,9 +66,8 @@ else:
     filtered_df = df.copy()
 
 
-# ===============================
+
 # TITLE
-# ===============================
 
 st.title("RetailPulse AI Analytics Dashboard")
 st.markdown(
@@ -79,9 +75,8 @@ st.markdown(
 )
 
 
-# ===============================
+
 # OVERVIEW
-# ===============================
 
 if page == "Overview":
 
@@ -124,9 +119,8 @@ if page == "Overview":
     st.pyplot(fig)
 
 
-# ===============================
+
 # EDA
-# ===============================
 
 elif page == "EDA":
 
@@ -194,9 +188,8 @@ elif page == "EDA":
     )
 
 
-# ===============================
+
 # RFM SEGMENTATION
-# ===============================
 
 elif page == "RFM Segmentation":
 
@@ -247,9 +240,8 @@ elif page == "RFM Segmentation":
     )
 
 
-# ===============================
+
 # DEMAND FORECASTING
-# ===============================
 
 elif page == "Demand Forecasting":
 
@@ -301,9 +293,8 @@ elif page == "Demand Forecasting":
     )
 
 
-# ===============================
+
 # CHURN PREDICTION
-# ===============================
 
 elif page == "Churn Prediction":
 
@@ -345,9 +336,8 @@ elif page == "Churn Prediction":
     )
 
 
-# ===============================
+
 # INVENTORY OPTIMIZATION
-# ===============================
 
 elif page == "Inventory Optimization":
 
